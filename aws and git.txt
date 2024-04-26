@@ -1,0 +1,76 @@
+
+
+deploying app using docker on aws directly:
+
+sudo apt install
+sudo apt install docker
+sudo apt  install docker.io
+git clone url
+ls
+cd tflstore
+sudo docker build -t tflimage .
+sudo docker run -d -p 8000:8000 tflimage
+
+Putty:
+put a public ip from instance to Hostname
+
+go in data and put username ubuntu
+
+go in ssh->authentication->credentials=browse private key
+
+putty will open up
+
+1]sudo apt update
+ 
+2]sudo apt install nodejs
+ 
+
+3]sudo apt install npm
+ 
+3]git clone <git code url>
+
+4]cd tflstore
+
+5] npm install
+ 
+6]node server.js
+
+
+git///
+NAVITA G
+Thu, Apr 25, 5:42 PM (17 hours ago)
+to NAVITA, me
+
+git init
+
+git clone url
+
+git add . 
+
+to update repository on git:
+1) git add.
+2) git commit -m "message"
+3)git push
+
+commands for branching:
+
+on git website create a new repository
+
+git branch
+
+git branch <new branch name>
+
+git checkout <branch name> to switch to the branch
+
+to push branch to repo:
+git push origin <branchname>
+git status
+git add .
+git commit -m "added"
+git push origin <branch name>
+
+git merge
+git checkout <branchname>.   - switch branch
+git merge branchname
+git push origin main
+
